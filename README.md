@@ -12,6 +12,7 @@ Initial install
 Available checkpoints
 
 * `step-0` - the initial code without unit tests
+* `step-1` - first unit test, karma test runner
 
 To run the code at each checkpoint, like step-0
 
