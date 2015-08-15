@@ -4,6 +4,10 @@ module.exports = function(config) {
     files: [
       '*.js'
     ],
+    preprocessors: {
+      '*.js': 'coverage'
+    },
+    reporters: ['coverage'],
     port: 9876,
     browsers: ['Chrome'],
     singleRun: true
