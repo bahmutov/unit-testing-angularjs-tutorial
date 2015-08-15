@@ -1,0 +1,33 @@
+{
+  "name": "unit-testing-angularjs-tutorial",
+  "version": "1.0.0",
+  "description": "Unit testing AngularJS code using ng-describe tutorial",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/bahmutov/unit-testing-angularjs-tutorial.git"
+  },
+  "keywords": [
+    "angular",
+    "angularjs",
+    "unit",
+    "test",
+    "testing",
+    "ng-describe",
+    "bdd",
+    "tutorial"
+  ],
+  "private": true,
+  "author": "Gleb Bahmutov <gleb.bahmutov@gmail.com>",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/bahmutov/unit-testing-angularjs-tutorial/issues"
+  },
+  "homepage": "https://github.com/bahmutov/unit-testing-angularjs-tutorial#readme",
+  "dependencies": {
+    "angular": "1.4.4"
+  }
+}
