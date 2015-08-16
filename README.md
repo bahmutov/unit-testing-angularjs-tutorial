@@ -18,11 +18,14 @@ Available checkpoints
 * `step-4` - first Angular code, with unit tests
 * `step-5` - simple Angular application with a controller
 * `step-6` - testing the controller
+* `step-7` - unit testing provided value using [ng-describe][ng-describe]
 
 To run the code at each checkpoint, like step-0
 
     git checkout step-0
     npm install
+
+[ng-describe]: https://github.com/kensho/ng-describe
 
 ### Small print
 
