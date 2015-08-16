@@ -17,6 +17,7 @@ Available checkpoints
 * `step-3` - added code coverage
 * `step-4` - first Angular code, with unit tests
 * `step-5` - simple Angular application with a controller
+* `step-6` - testing the controller
 
 To run the code at each checkpoint, like step-0
 
