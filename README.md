@@ -22,6 +22,7 @@ Available checkpoints
 * `step-8` - unit test controller using `ng-describe`
 * `step-9` - verifying scope values after digest cycle
 * `step-10` - http get with mock response
+* `step-11` - mocking an injected service instead of http
 
 To run the code at each checkpoint, like step-0
 

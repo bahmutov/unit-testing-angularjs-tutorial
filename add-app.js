@@ -4,7 +4,7 @@ angular.module('AddApp', ['RemoteCalc'])
 
     function computeSum() {
       add($scope.a, $scope.b)
-        .success(function (response) {
+        .then(function (response) {
           $scope.sum = response;
         });
     }
