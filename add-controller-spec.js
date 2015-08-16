@@ -1,4 +1,5 @@
 // unit test provided value using angular-mocks
+/*
 describe('add controller', function () {
   var $controller, $rootScope, $scope;
   beforeEach(function () {
@@ -18,11 +19,17 @@ describe('add controller', function () {
     expect($scope.sum).toEqual(0);
   });
 });
+*/
 
 // unit test provided value using ng-describe
 ngDescribe({
   module: 'AddApp',
   controller: 'AddController',
+  http: {
+    get: {
+      '/add/?a=10&b=20': 30
+    }
+  },
   tests: function (deps) {
     it('sets a, b and sum to zero', function () {
       expect(deps.AddController.a).toEqual(0);
@@ -33,7 +40,7 @@ ngDescribe({
     it('computes the sum', function () {
       deps.AddController.a = 10;
       deps.AddController.b = 20;
-      deps.AddController.$apply();
+      deps.step();
       expect(deps.AddController.sum).toEqual(30);
     });
   }
