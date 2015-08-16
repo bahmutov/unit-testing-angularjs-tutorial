@@ -19,6 +19,7 @@ Available checkpoints
 * `step-5` - simple Angular application with a controller
 * `step-6` - testing the controller
 * `step-7` - unit testing provided value using [ng-describe][ng-describe]
+* `step-8` - unit test controller using `ng-describe`
 
 To run the code at each checkpoint, like step-0
 
