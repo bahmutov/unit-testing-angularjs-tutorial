@@ -14,7 +14,8 @@ Available checkpoints
 * `step-0` - the initial code without unit tests
 * `step-1` - first unit test, karma test runner
 * `step-2` - example `beforeEach` callback
-* `step-3` - code coverage
+* `step-3` - added code coverage
+* `step-4` - first Angular code, with unit tests
 
 To run the code at each checkpoint, like step-0
 
