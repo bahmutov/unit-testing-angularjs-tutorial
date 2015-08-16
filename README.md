@@ -1,4 +1,4 @@
-# Unit testing AngularJS code using ng-describe tutorial
+# Unit testing AngularJS code using ng-describe: a tutorial
 
 This repo is the code example for the tutorial, 
 available at [1-2-3-tested](http://glebbahmutov.com/blog/1-2-3-tested/).
