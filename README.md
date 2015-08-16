@@ -16,6 +16,7 @@ Available checkpoints
 * `step-2` - example `beforeEach` callback
 * `step-3` - added code coverage
 * `step-4` - first Angular code, with unit tests
+* `step-5` - simple Angular application with a controller
 
 To run the code at each checkpoint, like step-0
 
