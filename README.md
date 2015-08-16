@@ -20,6 +20,7 @@ Available checkpoints
 * `step-6` - testing the controller
 * `step-7` - unit testing provided value using [ng-describe][ng-describe]
 * `step-8` - unit test controller using `ng-describe`
+* `step-9` - verifying scope values after digest cycle
 
 To run the code at each checkpoint, like step-0
 

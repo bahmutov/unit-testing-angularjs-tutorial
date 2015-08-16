@@ -29,5 +29,12 @@ ngDescribe({
       expect(deps.AddController.b).toEqual(0);
       expect(deps.AddController.sum).toEqual(0);
     });
+
+    it('computes the sum', function () {
+      deps.AddController.a = 10;
+      deps.AddController.b = 20;
+      deps.AddController.$apply();
+      expect(deps.AddController.sum).toEqual(30);
+    });
   }
 });
